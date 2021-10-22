@@ -1,0 +1,10 @@
+.form-body {
+  width: 500px;
+  margin: 45px auto;
+  border: 1px solid #cccc;
+  padding: 30px 50px;
+  border-radius: 30px;
+  .error-message {
+    color: red;
+  }
+}
