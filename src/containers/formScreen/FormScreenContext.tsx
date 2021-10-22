@@ -50,7 +50,7 @@ const VerificationProvider = (props: { children: any }) => {
     try {
       setSubmit(true);
       await submitCheckResults(values);
-      toast.success('Save', {
+      toast.success('Successfully submitted', {
         autoClose: 2000
       });
     } catch (exception) {

@@ -1,7 +1,7 @@
 import React from 'react';
 import { mount } from 'enzyme';
 
-import { findByTestAttr, checkProps } from '../../utility/TestUtility';
+import { findByTestAttr } from '../../utility/TestUtility';
 
 import FormScreenProvider, { FormScreenContext } from './FormScreenContext';
 

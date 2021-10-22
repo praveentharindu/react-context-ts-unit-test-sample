@@ -1,7 +1,7 @@
 import React from 'react';
 import { shallow } from 'enzyme';
 
-import { findByTestAttr, checkProps } from '../../../utility/TestUtility';
+import { findByTestAttr } from '../../../utility/TestUtility';
 
 import { Card } from './Card';
 
@@ -17,12 +17,6 @@ const setup = (props = {}) => {
   const setupProps = { ...props };
   return shallow(<Card {...setupProps} />);
 };
-
-describe('validate props types', () => {
-  test('test validate card props types', () => {
-    checkProps(Card, defaultProps);
-  });
-});
 
 describe('render card section', () => {
   test('test card section render', () => {
